@@ -5,7 +5,7 @@ use {
         parse_document,
         serialize::{serialize, SerializeOpts},
         tendril::TendrilSink,
-        tree_builder::TreeBuilderOpts,
+        tree_builder::TreeBuilderOpdfts,
         ParseOpts,
     },
     rcdom::{RcDom, SerializableHandle},

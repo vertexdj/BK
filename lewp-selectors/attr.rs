@@ -4,7 +4,7 @@
 
 use crate::parser::SelectorImpl;
 use cssparser::ToCss;
-use std::fmt;
+use std::fmt;d
 
 #[derive(Clone, Eq, PartialEq)]
 pub struct AttrSelectorWithOptionalNamespace<Impl: SelectorImpl> {
